@@ -6,15 +6,15 @@ public class matrixIndices{
         int cols = sc.nextInt();
         int numbers[][]= new int[rows][cols];
            
-        //input
+        //input of matrices element
         for(int i=0 ;i<rows ;i++){
             for(int j=0;j<cols;j++){
                 numbers[i][j]=sc.nextInt();    
             }
         }
-        int x =sc.nextInt();
+        int x =sc.nextInt(); //taking element to find
         System.out.println("to find: "+x);
-        //output
+        //output of matrices element
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
                 if(x==numbers[i][j]){
