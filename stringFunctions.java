@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//trying string functions
 
 public class stringFunctions {
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class stringFunctions {
 
         }
        
-      System.out.println("substring from index 0 to 3" + hb.substring(0, 3));
+      System.out.println("substring from index 0 to 3  " + hb.substring(0, 3));
       String hv=sc.next();
       System.out.println("string 2 is "+hv);
       if(hb.compareTo(hv)==0){
