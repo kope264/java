@@ -60,6 +60,11 @@ public class project {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("enter your choice");
+        int c=sc.nextInt();
+        switch(c){
+            case 1 :
+                System.out.println("integration");
 
   
         System.out.println("select the type of trignomentri ratio");
@@ -109,5 +114,14 @@ public class project {
             System.out.println("choice not available");
 
         }
+                break;
+
+            case 2 :    
+                System.out.println("differentiation");
+
+                break;
+                
+            default:
+                System.out.println("invalid");
     }
 }    
